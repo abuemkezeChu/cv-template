@@ -9,3 +9,117 @@
 body {
   font-family: Roboto, sans-serif;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 88rem;
+  margin: 1rem auto;
+  gap: 2rem;
+}
+
+.fa {
+  margin-right: 1rem;
+  color: #009688;
+}
+
+.about-me {
+  width: clamp(18rem, 96%, 30rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #757575;
+  box-shadow: #00000059 0 0.4rem 1rem;
+  padding-bottom: 1rem;
+}
+
+.about-me > img {
+  width: 100%;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  padding: 1rem;
+  margin-top: -4.5rem;
+}
+
+.name > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.about-me > p, hr {
+  margin: 0 1rem;
+}
+
+.ps,
+.photography,
+.illustrator,
+.media,
+.english,
+.spanish,
+.german {
+  margin: 0 1rem;
+  height: 1rem;
+  background-color: #f1f1f1;
+  border-radius: 1rem;
+}
+
+.ps-level {
+  width: 90%;
+}
+
+.photography-level {
+  width: 80%;
+}
+
+.illustrator-level {
+  width: 75%;
+}
+
+.media-level {
+  width: 50%;
+}
+
+.english-level {
+  width: 100%;
+}
+
+.spanish-level {
+  width: 60%;
+}
+
+.german-level {
+  width: 25%;
+}
+
+.ps-level, 
+.photography-level,
+.illustrator-level,
+.media-level,
+.english-level,
+.spanish-level,
+.german-level {
+  height: inherit;
+  background-color: #009688;
+  color: #fff;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.right-col {
+  background-color: aliceblue;
+  width: 96%;
+  max-width: 60rem;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
