@@ -180,8 +180,26 @@ hr {
   margin: 0 0.8rem;
 }
 
+/* FOOTER */
+
+.footer {
+  text-align: center;
+  background-color: #009688;
+  color: #fff;
+  padding: 1rem;
+}
+
+.footer > .fa {
+  margin: 1rem 0;
+  color: #fff;
+}
+
 .education > h2 {
   color: #757575;
+}
+
+.footer-link {
+  color: #fff;
 }
 
 /* MEDIA QUERRIES */
